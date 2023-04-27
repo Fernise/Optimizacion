@@ -1,0 +1,53 @@
+{
+    "workbench.editor.untitled.hint": "hidden",
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "workbench.editorAssociations": {
+        "*.ipynb": "jupyter-notebook"
+    },
+    "python.defaultInterpreterPath": "C:\\Users\\Fernando\\anaconda3\\envs\\pythonProject1\\python.exe",
+    "notebook.cellToolbarLocation": {
+        "default": "right",
+        "jupyter-notebook": "left"
+    },
+    "remote.SSH.remotePlatform": {
+        "10.6.131.173": "linux",
+        "10.6.130.239": "linux",
+        "10.6.131.224": "linux",
+        "10.6.131.61": "linux"
+    },
+    "C_Cpp.clang_format_fallbackStyle": "Google",
+    "cmake.configureOnOpen": true,
+    "diffEditor.ignoreTrimWhitespace": false,
+    "pymakr.devices.configs": {
+        "serial://COM5": {
+            "autoConnect": "onLostConnection",
+            "name": "",
+            "username": "micro",
+            "password": "python",
+            "hidden": false,
+            "rootPath": null,
+            "adapterOptions": {}
+        },
+        "serial://COM4": {
+            "autoConnect": "onLostConnection",
+            "name": "",
+            "username": "micro",
+            "password": "python",
+            "hidden": false,
+            "rootPath": null,
+            "adapterOptions": {}
+        }
+    },
+    "files.autoSave": "afterDelay",
+    "git.openRepositoryInParentFolders": "never",
+    "git.suggestSmartCommit": false,
+    "[python]": {
+        "editor.formatOnType": true
+    },
+    "workbench.colorTheme": "Monokai",
+    "workbench.colorCustomizations": {
+        "editorLineNumber.foreground": "#00ff00"
+    },
+    "workbench.iconTheme": "material-icon-theme"
+}
