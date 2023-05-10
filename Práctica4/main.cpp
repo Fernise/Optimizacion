@@ -28,8 +28,6 @@ void menu (unsigned dirigido, char &opcion)
             cout << "s. Mostrar la lista de [s]ucesores del grafo" << endl;
             cout << "p. Mostrar la lista de [p]redecesores del grafo" << endl;
             cout << "m. Realizar un recorrido en a[m]plitud del grafo desde un nodo por sucesores" << endl;
-            cout << "v. Caminos mínimos: Comparamos Dijkstra [v]s BellmanFordEnd" << endl;
-            
             };
     cout << "q. Finalizar el programa" << endl;
     cout << "Introduce la letra de la accion a ejecutar  > ";
@@ -117,12 +115,8 @@ int main(int argc, char *argv[])
                     break;
                 case 'r' :
                     cout << "Algoritmo de Prim" << endl; 
-                    // G.Prim();
-                    break;   
-                case 'v' :
-                    cout << "Camino mínimo de un nodo al resto: " << endl; 
-                    G.ComparativaCM();
-                    break;       
+                    G.Prim();
+                    break;         
             }
     }
     while (opcion != 'q');
